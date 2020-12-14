@@ -1,0 +1,16 @@
+
+$theme-colors: (
+        "primary": black,
+        "secondary": purple
+);
+body {
+    background-color: white;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+.navbar-brand:hover{
+    opacity: 0.5;
+}
+@import "~bootstrap/scss/bootstrap";
